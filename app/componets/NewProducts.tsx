@@ -10,28 +10,64 @@ const NewProducts = () => {
             img: Image1,
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
-            price:"20"
+            price:"100",
+            rating:5
         },
         {
-            id:0,
+            id:1,
             img: Image2,
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
-            price:"20"
+            price:"20",
+            rating:3
         },
-        // {
-        //     id:0,
-        //     img: Image3,
-        //     title:"CLOTHING",
-        //     mainTitle:"DIGITAL CLOTHING FOR WOMEN",
-        //     price:"20"
-        // },
         {
-            id:0,
+            id:2,
+            img: Image3,
+            title:"CLOTHING",
+            mainTitle:"DIGITAL CLOTHING FOR WOMEN",
+            price:"90",
+            rating:2
+        },
+        {
+            id:3,
             img: Image4,
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
-            price:"20"
+            price:"60",
+            rating:4
+        },
+        {
+            id:4,
+            img: Image1,
+            title:"CLOTHING",
+            mainTitle:"DIGITAL CLOTHING FOR WOMEN",
+            price:"120",
+            rating:5
+        },
+        {
+            id:5,
+            img: Image2,
+            title:"CLOTHING",
+            mainTitle:"DIGITAL CLOTHING FOR WOMEN",
+            price:"520",
+            rating:2
+        },
+        {
+            id:6,
+            img: Image3,
+            title:"CLOTHING",
+            mainTitle:"DIGITAL CLOTHING FOR WOMEN",
+            price:"270",
+            rating:3
+        },
+        {
+            id:7,
+            img: Image4,
+            title:"CLOTHING",
+            mainTitle:"DIGITAL CLOTHING FOR WOMEN",
+            price:"50",
+            rating:4
         },
     ]
   return (
@@ -47,13 +83,12 @@ const NewProducts = () => {
                     title={data.title}
                     mainTitle={data.mainTitle}
                     price={data.price}
-                    
+                    rating={data.rating}
                     />
                 )}
             </div>
-        
-        </div>
-
+            
+        </div>  
     </div>
   )
 }
