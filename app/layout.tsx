@@ -7,6 +7,8 @@ import NaVBarTop from "./componets/NaVBarTop";
 import SliderBar from "./componets/SliderBar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import MobNav from "./componets/MobNav";
+import Footer from "./componets/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -25,7 +27,9 @@ export default function RootLayout({
         <Header/>
         <HeaderMiddle/>
         <NaVBarTop/>
+        <MobNav/>
         {children}</body>
+        <Footer/>
     </html>
   );
 }

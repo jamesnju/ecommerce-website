@@ -32,9 +32,15 @@ const Testimonial = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum nostrum reprehenderit tenetur! Aspernatur laborum beatae exercitationem vitae blanditiis
                         </p>
                     </div>
-                    <div className="bg-red-600 bg-[url${user}]"></div>
 
                 </div>
+                    <div className="bg-red-600 bg-[url('/public/shoe1.jpg')] bg-cover h-[500px] rounded-2xl grid place-items-center">
+                        <div className="bg-[#ffffffab] min-w-[270px] sm:min-w-[300px] md:min-w-[500px] rounded-xl py-8 sm:py-8  px-2 grid place-items-center gap-3">
+                            <button className="bg-black text-white p-2 rounded-md"> 30% DISCOUNT</button>
+                            <h3 className="font-bold text-2xl text-[#272727]">SUMMER COLLECTION</h3>
+                            <p className="text-gray-500 text-[20px]">Starting @ $20 <b>Shop Now</b></p>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
