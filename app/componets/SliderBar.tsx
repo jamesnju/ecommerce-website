@@ -19,28 +19,28 @@ const SliderBar = () => {
     const SliderData = [
         {
             id:0,
-            img: Image1,
+            img: '/clothings.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"20"
         },
         {
             id:0,
-            img: Image2,
+            img: '/shoe1.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"20"
         },
         {
             id:0,
-            img: Image3,
+            img: '/woman.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"20"
         },
         {
             id:0,
-            img: Image4,
+            img: '/shoe2.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"20"
