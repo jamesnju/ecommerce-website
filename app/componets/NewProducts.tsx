@@ -7,7 +7,7 @@ const NewProducts = () => {
     const productData = [
         {
             id:0,
-            img: Image1,
+            img: '/clothings.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"100",
@@ -15,7 +15,7 @@ const NewProducts = () => {
         },
         {
             id:1,
-            img: Image2,
+            img: '/shoe1.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"20",
@@ -23,7 +23,7 @@ const NewProducts = () => {
         },
         {
             id:2,
-            img: Image3,
+            img: '/woman.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"90",
@@ -31,7 +31,7 @@ const NewProducts = () => {
         },
         {
             id:3,
-            img: Image4,
+            img: '/shoe2.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"60",
@@ -39,7 +39,7 @@ const NewProducts = () => {
         },
         {
             id:4,
-            img: Image1,
+            img: '/clothings.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"120",
@@ -47,7 +47,7 @@ const NewProducts = () => {
         },
         {
             id:5,
-            img: Image2,
+            img: '/shoe1.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"520",
@@ -55,7 +55,7 @@ const NewProducts = () => {
         },
         {
             id:6,
-            img: Image3,
+            img: '/woman.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"270",
@@ -63,7 +63,7 @@ const NewProducts = () => {
         },
         {
             id:7,
-            img: Image4,
+            img: '/shoe2.jpg',
             title:"CLOTHING",
             mainTitle:"DIGITAL CLOTHING FOR WOMEN",
             price:"50",

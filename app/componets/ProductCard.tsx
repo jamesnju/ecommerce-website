@@ -63,9 +63,8 @@ interface propsType{
           
           </div>
         );
-
         default:
-          return null;
+        return null;
     }
   }
 
